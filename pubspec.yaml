@@ -1,0 +1,27 @@
+name: ai_widget_catalog
+description: "A Flutter widget catalog powered by Gemini"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-167.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  devtools_app_shared: ^0.2.0-dev.0
+  devtools_extensions: ^0.2.0-dev.0
+  flutter_markdown: ^0.7.1
+  google_generative_ai: ^0.4.0
+  url_launcher: ^6.2.5
+  web: ^0.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

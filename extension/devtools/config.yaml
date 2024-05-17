@@ -1,0 +1,5 @@
+name: ai_widget_catalog
+issueTracker: https://github.com/flutter/devtools/issues
+version: 0.0.1
+materialIconCodePoint: '0xf56d'
+requiresConnection: false
