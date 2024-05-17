@@ -4,6 +4,23 @@ A rough prototype for an AI powered widget catalog. This tool is built as a
 Flutter DevTools extension, which is a Flutter web app that can be embedded
 directly in DevTools or in the IDE by the DevTools extensions framework.
 
+## How to use this extension as a tool in your IDE
+
+Since this package is unpublished at the moment, follow these steps to use this
+DevTools extension as an embedded tool in VS Code:
+
+1. Clone this repository.
+2. Open a Flutter project in VS Code, and add a path dependency on the `ai_theme_builder` 
+package.
+```yaml
+dev_dependencies:
+  ai_widget_catalog:
+    path: ../path/to/ai_widget_catalog
+```
+3. Run `flutter pub get`.
+4. Open the Flutter sidebar in VS Code, and you will see the extension listed there. If
+for some reason this does not work, reload the VS Code window.
+
 ## API Key
 
 To use this tool or to develop this tool, you will need an API key from
